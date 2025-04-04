@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Management Tool</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+           
+            background-image: url('black/Coder at Night.png');
+            color: #000000;
+        }
+
+        header {
+            background-image: url('black/Coder at Night.png');
+            background-size: cover;
+            background-position: center;
+            color: #C7F022;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        footer {
+            background-image: url('black/Coder at Night.png');
+            background-size: cover;
+            background-position: center;
+            color: #C7F022;
+            text-align: center;
+            padding: 20px;
+        }
+           nav {
+            position: sticky;
+            top: 0;
+            background-color: #000000;
+            color: #C7F022;
+            padding: 1em;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: #C7F022;
+            margin: 0 1em;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+
+        .programming-languages {
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
+            gap: 20px;
+            text-align: center;
+        }
+
+        .language-card {
+            background-color: #000000;
+            color: #C7F022;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+           border:2px solid #c7f022;
+        }
+
+        .language-card:hover {
+            transform: scale(1.05);
+        }
+
+        .language-card img {
+            width: 50px;
+            height: 50px;
+        }
+
+        .language-card h3 {
+            margin: 10px 0 5px;
+        }
+
+        .language-card p {
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Project Management Tool</h1>
+        <p>Effortlessly manage your projects with these powerful features.</p>
+    </header>
+ <nav>
+        <a href="#">Python</a>
+        <a href="#">Java</a>
+        <a href="#">C++</a>
+        <a href="#">JavaScript</a>
+        <a href="#">Ruby</a>
+    </nav>
+
+    <main>
+        <section class="programming-languages">
+            <div class="language-card">
+                <img src="black/pop.png" alt="Python">
+                <h3>Python</h3>
+                <p>Python is a versatile language known for its readability and vast library support.</p>
+            </div>
+            <div class="language-card">
+                <img src="black/tea.png" alt="Java">
+                <h3>Java</h3>
+                <p>Java is a widely-used language for building enterprise-level applications.</p>
+            </div>
+            <div class="language-card">
+                <img src="black/cblack.png" alt="C++">
+                <h3>C++</h3>
+                <p>C++ is powerful for performance-critical applications like games and engines.</p>
+            </div>
+            <div class="language-card">
+                <img src="black/js.png" alt="JavaScript">
+                <h3>JavaScript</h3>
+                <p>JavaScript powers interactive web applications and front-end development.</p>
+            </div>
+            <div class="language-card">
+                <img src="black/php.png" alt="PHP">
+                <h3>PHP</h3>
+                <p>PHP is widely used for server-side scripting and web development.</p>
+            </div>
+            <div class="language-card">
+                <img src="black/rubybla.png" alt="Ruby" >
+                <h3>Ruby</h3>
+                <p>Ruby is known for its simplicity and is popular for web development with Rails.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Project Management Tool &copy; 2025. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <link href="dist/output.css" rel="stylesheet" />
+</head>
+<body class="bg-white font-sans">
+
+  <!-- Navbar -->
+  <header class="flex justify-between items-center px-6 py-4 shadow-md bg-gray-300" >
+    <div class="text-3xl font-bold text-black italic tracking-wide">
+      <img src="src/logo.png" alt="Ryan's Logo" class="h-20 w-20 md:h-16 object-contain" />
+    </div>
+    <nav class="space-x-6 text-base font-medium text-gray-800">
+      <a href="index.html" class="text-purple-600 hover:text-black">Home</a>
+      <a href="about me.html" class="hover:text-purple-600">About me</a>
+      <a href="snu.html" class="hover:text-purple-600">About SNu</a>
+      <a href="village.html" class="hover:text-purple-600">Degmada</a>
+    </nav>
+    <button 
+      onclick="window.location.href='contact.html'" 
+      class="border-2 border-purple-600 text-purple-600 px-4 py-1 rounded-full hover:bg-purple-600 hover:text-white transition">
+      Contact Me
+    </button>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-[#f9fdf4] py-12 px-6 md:px-16">
+    <div class="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center gap-10">
+      <!-- Text Content -->
+      <div class="md:w-1/2">
+        <p class="text-sm text-gray-600 mb-2">Hi, I am Ryan</p>
+        <h1 class="text-3xl md:text-4xl font-bold leading-snug text-gray-900">
+          <span class="text-purple-600">Welcome!</span> to my first<br />
+          figma project.
+        </h1>
+        <button class="mt-6 bg-purple-600 text-white px-6 py-2 rounded hover:bg-purple-700 transition">
+          Let’s Talk
+        </button>
+        <p class="mt-4 text-gray-700 text-sm">
+          Rayaan c/qaadir xussein it is my name and this is my first figma project website — this talks me so let’s go!
+        </p>
+      </div>
+      <!-- Right Image -->
+      <div class="flex justify-center md:justify-end">
+        <div class="p-4 rounded-[60px] border-4 border-purple-600 shadow-lg">
+          <img src="src/rig.png" alt="Anime Girl" class="w-[200px] md:w-[250px] object-contain" />
+        </div>
+      </div>
+    </div>
+  </section>
+<br>
+<br>
+<br>
+
+
+  <!-- Pages Section -->
+  <section class="px-6 py-10">
+    <h2 class="text-3xl font-bold text-left text-gray-800 mb-8">Pages</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+      <!-- Box 1 -->
+      <div class="bg-gray-300 border-b-4 border-purple-700 p-6 shadow-md rounded-lg text-left">
+        <div class="w-14 h-14 mb-4 rounded-md overflow-hidden bg-white flex items-center justify-center">
+          <img src="src/me.jpg" alt="Icon 1" class="w-full h-full object-contain" />
+        </div>
+        <h3 class="text-lg font-semibold mb-1">About Me</h3>
+        <p class="text-black text-sm">waxa aan ugu hadlaya aniga, <br> wax yaalaha aan xiiseyo.<br> warbixinteyda oo dhan.<br> waxa ann ahay.</p>
+      </div>
+
+      <!-- Box 2 -->
+      <div class="bg-gray-300 border-b-4 border-purple-700 p-6 shadow-md rounded-lg text-left">
+        <div class="w-14 h-14 mb-4 rounded-md overflow-hidden bg-white flex items-center justify-center">
+          <img src="src/unis.jpg" alt="Icon 2" class="w-full h-full object-contain" />
+        </div>
+        <h3 class="text-lg font-semibold mb-1">About SNU</h3>
+        <p class="text-gray-600 text-sm">waxa aan ugu hadlaya <br> jaamacadayda aan dhigto,<br> jaamacda magaceyda waa jus tan<br> aan aniga waa gaheyr..</p>
+      </div>
+
+      <!-- Box 3 -->
+      <div class="bg-gray-300 border-b-4 border-purple-700 p-6 shadow-md rounded-lg text-left">
+        <div class="w-14 h-14 mb-4 rounded-md overflow-hidden bg-white flex items-center justify-center">
+          <img src="src/vill.jpg" alt="Icon 3" class="w-full h-full object-contain" />
+        </div>
+        <h3 class="text-lg font-semibold mb-1">About Village</h3>
+        <p class="text-gray-600 text-sm">page kaan waxa aan ugu hadlayaa <br> wax badan oo ku saabsan<br> degamdayda qaasatan xaafada aan <br> daganahay.</p>
+      </div>
+
+      <!-- Box 4 -->
+      <div class="bg-gray-300 border-b-4 border-purple-700 p-6 shadow-md rounded-lg text-left">
+        <div class="w-14 h-14 mb-4 rounded-md overflow-hidden bg-white flex items-center justify-center">
+          <img src="src/contact.jpg" alt="Icon 4" class="w-full h-full object-contain" />
+        </div>
+        <h3 class="text-lg font-semibold mb-1">Contact</h3>
+        <p class="text-gray-600 text-sm">page kaan waxaaan ugu hadlaya <br> halka lega soo xariiri karo iyo app<br> yasha social media aan isticmaalo<br> aniga ika heli.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Summary Section -->
+  <section class="px-6 py-10">
+    <div class="flex justify-between items-center mb-8">
+      <div class="text-left">
+        <p class="text-sm text-black mb-1">Ryan's Project</p>
+        <h2 class="text-3xl font-bold text-gray-800">Warbixin Kooban</h2>
+      </div>
+      <button class="bg-purple-700 text-white px-4 py-2 rounded hover:bg-purple-400 transition">
+        Visit my University
+      </button>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <!-- Box 1 -->
+      <div class="w-full shadow-md rounded-md overflow-hidden text-left">
+        <img src="src/images (2).jpg" alt="University" class="w-full h-32 object-cover" />
+        <div class="p-4">
+          <h3 class="text-3xl font-semibold mb-1">University</h3>
+          <p class="text-black text-sm">Aniga waxa aan dhigtaa jaamacada ummada <br> soomaliyeed qeybta qaheyr .</p>
+          <div class="inline-block border-b-4 border-purple-700 font-bold">
+            <a class="text-3xl text-black font-semibold flex items-center gap-1" href="#website">View in website</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Box 2 -->
+      <div class="w-full shadow-md rounded-md overflow-hidden text-left">
+        <img src="src/Coder at Night.png" alt="About Me" class="w-full h-32 object-cover" />
+        <div class="p-4">
+          <h3 class="text-3xl font-semibold mb-1">About Me</h3>
+          <p class="text-black text-sm">Magacayga waa Rayaan cashara , waxa aan ahay 20 <br> jir waxa ku dhashtay qal gaduud.</p>
+          <div class="inline-block border-b-4 border-purple-700 font-bold">
+            <a class="text-3xl text-black font-semibold flex items-center gap-1" href="#website">View in website</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Box 3 -->
+      <div class="w-full shadow-md rounded-md overflow-hidden text-left">
+        <img src="src/images.jpg" alt="Xaafada" class="w-full h-32 object-cover" />
+        <div class="p-4">
+          <h3 class="text-3xl font-semibold mb-1">Xaafadayda</h3>
+          <p class="text-black text-sm">aniga waxa aan ku noolahay xaafada shibis ee ku <br> yaala magaalada muqdisho.</p>
+          <div class="inline-block border-b-4 border-purple-700 font-bold">
+            <a class="text-3xl text-black font-semibold flex items-center gap-1" href="#website">View in website</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 p-6">
+    <div class="flex justify-between items-center flex-wrap">
+      <!-- Logo -->
+      <div class="flex-shrink-0">
+        <img src="src/logo.png" alt="Logo" class="w-32" />
+      </div>
+      <!-- Menu -->
+      <div class="flex-grow text-center">
+        <ul class="flex justify-center space-x-6">
+          <li><a href="#" class="text-black hover:text-purple-700">Home</a></li>
+          <li><a href="#" class="text-black hover:text-purple-700">About Me</a></li>
+          <li><a href="#" class="text-black hover:text-purple-700">About SNU</a></li>
+          <li><a href="#" class="text-black hover:text-purple-700">About Village</a></li>
+          <li><a href="#" class="text-black hover:text-purple-700">Contact</a></li>
+        </ul>
+      </div>
+      <!-- Social -->
+      <div class="flex space-x-4 mt-4 md:mt-0">
+        <a href="#"><img src="src/facebook.jpg" alt="Facebook" class="w-6 h-6" /></a>
+        <a href="#"><img src="src/twitter.jpg" alt="Twitter" class="w-6 h-6" /></a>
+        <a href="#"><img src="src/inst.jpg" alt="Instagram" class="w-6 h-6" /></a>
+        <a href="#"><img src="src/idn.jpg" alt="LinkedIn" class="w-6 h-6" /></a>
+      </div>
+    </div>
+
+    <hr class="my-6 border-black" />
+
+    <div class="flex flex-col md:flex-row justify-between items-center">
+      <p class="text-sm text-gray-700">Made with 💜 by Ryan</p>
+      <p class="text-sm text-gray-700 mt-2 md:mt-0">© All Rights Reserved | Ryan Cashara</p>
+      <p class="text-sm text-gray-700 mt-2 md:mt-0">
+        <a href="#">Privacy</a> · <a href="#">Terms</a> · <a href="#">Cookies</a>
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
